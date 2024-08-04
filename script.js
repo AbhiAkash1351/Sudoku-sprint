@@ -66,7 +66,7 @@ function createGrid(board) {
   for (let row = 0; row < 9; row++) {
     for (let col = 0; col < 9; col++) {
       const cell = document.createElement("input");
-      cell.type = "text";
+      cell.type = "numeric";
       cell.maxLength = 1;
       cell.dataset.row = row;
       cell.dataset.col = col;
